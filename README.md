@@ -19,6 +19,10 @@ You'll need: Photoshop, metal ruler, sharp blade.  If you really don't have a ru
 * Use cut marks to align your blade/scissors and cut
 * Behold!  Cards.
 
+
+---
+
+
 # Hot tips for speed & quality
 * Most efficient cutting technique:
   1. Cut the top and bottom margin off (avoid extra cuts on top/bottoms of cards)
@@ -44,6 +48,9 @@ You'll need: Photoshop, metal ruler, sharp blade.  If you really don't have a ru
 * Figma?
 
 # Release notes
+## v6
+* Reduced per-card size sightly (2982x4175).  Size was a bit too large to fit in some sleeves. These can accept some cut-off and still be the same size as real cards.
+
 ## v5
 * Added black-normalizing layer.  I noticed that color grading on card images from Scryfall and other sources is very inconsistent.  This causes the 'black' borders of black-bordered prints to be highly varied in actual printed darkness.  In the Overlays group, I added an optional layer that will darken blacks that are too light, creating a dark and consistent border.
 * Added cut line dots.  This optional layer shows teeny little dots at the card corners for cut alignment.  Dots have less of a visual footprint than lines, which lets you be a little less meticulous during cutting. <br><br> <img width="364" alt="image" src="https://github.com/thanexor/speed-proxies/assets/199630/5b1d2376-a4d2-4132-a5aa-14df9f5fda24">
